@@ -1,0 +1,8 @@
+
+
+<ul>
+	
+	<%for ad in @ads %>
+    <li><a href="/ads/<%=ad.id%>"><%=ad.name%></a>    ||<a href="/ads/<%=ad.id%>/destroy">Delete</a></li>
+    <%end%>
+</ul>
